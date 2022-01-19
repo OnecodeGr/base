@@ -3,8 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Onecode_Base" setup_version="1.0.0">
         <sequence>
-            <module name="Magento_Catalog" />
-            <module name="Magento_Checkout"/>
+            <module name="Magento_AdminNotification" />
         </sequence>
     </module>
 </config>

@@ -4,11 +4,9 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-
                 <resource id="Onecode_Base::menu"
                           title="Onecode Extension"
                           sortOrder="100"/>
-
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">

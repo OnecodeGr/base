@@ -6,6 +6,6 @@
              title="Onecode"
              module="Onecode_Base"
              sortOrder="30"
-             resource="Onecode_Base::config"/>
+             resource="Onecode_Base::menu"/>
     </menu>
 </config>
