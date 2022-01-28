@@ -10,10 +10,6 @@ namespace Onecode\Base\Helper;
 
 use Magento\Framework\Simplexml\Element;
 
-/**
- * Class SimpleXmlExtended
- * @package Onecode\ShopFlixConnector\Library
- */
 class SimpleXMLExtended extends Element
 {
     public function addCData($cdata_text)
