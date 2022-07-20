@@ -1,0 +1,147 @@
+
+
+.admin__menu [data-ui-id^="menu-onecode-"] .submenu-group-title span:before,
+.admin__menu [data-ui-id^="menu-magento-"] [data-ui-id^="menu-magento-"] [data-ui-id^="menu-onecode-"] span:before {
+    background: url(../images/logo-menu.svg) no-repeat;
+    width: 16px;
+    height: 19px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: top;
+}
+
+#onecode_base_extensions table td.value,
+#onecode_base_information table td.value {
+    vertical-align: bottom;
+}
+/* main onecode menu start*/
+#menu-onecode-base-sidebar-base-menu .submenu .level-0 > a:before,
+#menu-onecode-base-sidebar-base-menu .level-0:first-child > a:after {
+    content: '';
+    display: none;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-1,
+#menu-onecode-base-sidebar-base-menu .submenu .level-0 {
+    margin-right: 15px;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-0._show > a {
+    color: #fff;
+    font-weight: 700;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-1 > a:hover {
+    background-color: #524d49;
+    color: #fff;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-1 > a,
+#menu-onecode-base-sidebar-base-menu .submenu .level-0 > a {
+    display: block;
+    margin: .7rem 0;
+    padding: 1rem 1.5rem;
+    min-height: 0;
+    width: 99%;
+    color: #a79d95;
+    text-align: left;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-1 {
+    margin-left: 0;
+}
+
+.item-extensions a,
+.item-marketplace a {
+    color: #fff!important;
+    font-weight: 600!important;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .column {
+    min-width: 22rem;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu > #nav,
+#menu-onecode-base-sidebar-base-menu .submenu .column > ul {
+    overflow-y: auto;
+    margin-right: 15px;
+    max-height: 720px;
+    scrollbar-color: #a79d95;
+    scrollbar-width: thin;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu > #nav::-webkit-scrollbar,
+#menu-onecode-base-sidebar-base-menu .submenu .column > ul::-webkit-scrollbar {
+    width: 3px;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu > #nav::-webkit-scrollbar-track,
+#menu-onecode-base-sidebar-base-menu .submenu .column > ul::-webkit-scrollbar-track {
+    width: 3px;
+    background: #a79d95;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu > #nav::-webkit-scrollbar-thumb,
+#menu-onecode-base-sidebar-base-menu .submenu .column > ul::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #fff;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .level-0 > a:hover {
+    background-color: #524d49;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .column .parent {
+    margin-bottom: 0;
+}
+
+#menu-onecode-base-sidebar-base-menu .submenu .parent {
+    margin-bottom: 0.5rem;
+}
+
+#menu-onecode-base-sidebar-base-menu .item-container .submenu {
+    transform: none;
+    opacity: 0;
+    transition-property: opacity;
+}
+
+#menu-onecode-base-sidebar-base-menu .item-container._show .submenu {
+    opacity: 1;
+}
+
+#menu-onecode-base-sidebar-base-menu > a:before {
+    content: '';
+    background:  url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iNTEyLjAwMDAwMHB0IiBoZWlnaHQ9IjUxMi4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDUxMi4wMDAwMDAgNTEyLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgoKPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsNTEyLjAwMDAwMCkgc2NhbGUoMC4xMDAwMDAsLTAuMTAwMDAwKSIKZmlsbD0iI2Y3ZjNlYiIgc3Ryb2tlPSJub25lIj4KPHBhdGggZD0iTTI5MzcgNDM3OSBjLTEwMSAtMTEgLTIyMCAtMzcgLTMxNiAtNjggbC04NiAtMjcgMyAtMzAwIGMyIC0xNjQgNQotMzAwIDYgLTMwMSAxIC0yIDQ3IDkgMTAyIDI0IDg0IDIyIDEyMSAyNiAyNDQgMjcgMTQwIDEgMTQ3IDAgMjA3IC0yOCAxNDcKLTY4IDIxMiAtMjAxIDIzMyAtNDgwIDYgLTc3IDEwIC02MjkgMTAgLTEzMzggbDAgLTEyMDggNjY1IDAgNjY1IDAgMCAzMjAgMAozMjAgLTMwNCAwIC0zMDQgMCAtNSAxMDI4IGMtNCA4ODUgLTYgMTA0MiAtMjEgMTEzOCAtNjEgNDE5IC0yMDIgNjY1IC00NTUKNzk4IC0xNjMgODYgLTQxMiAxMjIgLTY0NCA5NXoiLz4KPHBhdGggZD0iTTUxMCA0MDIwIGwwIC0zMjAgMzI1IDAgMzI1IDAgMCAtMTE5MCAwIC0xMTkwIC0zMjUgMCAtMzI1IDAgMCAtMzIwCjAgLTMyMCA5OTAgMCA5OTAgMCAwIDMyMCAwIDMyMCAtMzEwIDAgLTMxMCAwIDAgMTUxMCAwIDE1MTAgLTY4MCAwIC02ODAgMCAwCi0zMjB6Ii8+CjwvZz4KPC9zdmc+Cg==) no-repeat center;
+    background-size: contain;
+}
+
+#menu-onecode-base-sidebar-base-menu > a:hover:before,
+#menu-onecode-base-sidebar-base-menu._show > a:before {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iNTEyLjAwMDAwMHB0IiBoZWlnaHQ9IjUxMi4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDUxMi4wMDAwMDAgNTEyLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgoKPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsNTEyLjAwMDAwMCkgc2NhbGUoMC4xMDAwMDAsLTAuMTAwMDAwKSIKZmlsbD0iI2Y3ZjNlYiIgc3Ryb2tlPSJub25lIj4KPHBhdGggZD0iTTI5MzcgNDM3OSBjLTEwMSAtMTEgLTIyMCAtMzcgLTMxNiAtNjggbC04NiAtMjcgMyAtMzAwIGMyIC0xNjQgNQotMzAwIDYgLTMwMSAxIC0yIDQ3IDkgMTAyIDI0IDg0IDIyIDEyMSAyNiAyNDQgMjcgMTQwIDEgMTQ3IDAgMjA3IC0yOCAxNDcKLTY4IDIxMiAtMjAxIDIzMyAtNDgwIDYgLTc3IDEwIC02MjkgMTAgLTEzMzggbDAgLTEyMDggNjY1IDAgNjY1IDAgMCAzMjAgMAozMjAgLTMwNCAwIC0zMDQgMCAtNSAxMDI4IGMtNCA4ODUgLTYgMTA0MiAtMjEgMTEzOCAtNjEgNDE5IC0yMDIgNjY1IC00NTUKNzk4IC0xNjMgODYgLTQxMiAxMjIgLTY0NCA5NXoiLz4KPHBhdGggZD0iTTUxMCA0MDIwIGwwIC0zMjAgMzI1IDAgMzI1IDAgMCAtMTE5MCAwIC0xMTkwIC0zMjUgMCAtMzI1IDAgMCAtMzIwCjAgLTMyMCA5OTAgMCA5OTAgMCAwIDMyMCAwIDMyMCAtMzEwIDAgLTMxMCAwIDAgMTUxMCAwIDE1MTAgLTY4MCAwIC02ODAgMCAwCi0zMjB6Ii8+CjwvZz4KPC9zdmc+Cg==) no-repeat center;
+    background-size: contain;
+}
+
+.admin__menu .level-0#menu-onecode-base-sidebar-base-menu > .submenu > ul[role='menubar'] {
+    min-height: 720px;
+}
+
+.admin__menu .level-0#menu-onecode-base-sidebar-base-menu .submenu > ul[role='menu'] {
+    min-height: inherit;
+}
+
+.admin__menu .level-0 > .submenu .submenu {
+    min-width: 253px;
+    min-height: 100%;
+}
+
+.admin__menu .submenu .submenu .submenu-title {
+    margin-left: 18px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 130%;
+}
+/* main onecode menu end*/
