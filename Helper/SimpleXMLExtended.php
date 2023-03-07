@@ -16,6 +16,6 @@ class SimpleXMLExtended extends Element
     {
         $node = dom_import_simplexml($this);
         $no = $node->ownerDocument;
-        $node->appendChild($no->createCDATASection($cdata_text));
+        $node->appendChild($no->createCDATASection((string)$cdata_text));
     }
 }
