@@ -28,8 +28,8 @@ class OrdersGrid
         if ($requestName !== 'sales_order_grid_data_source') {
             return $result;
         }
-        if($this->config->isModuleOutputEnabled('Onecode_TaxydromikiVoucherCreator') ||
-            $this->config->isModuleOutputEnabled('Onecode_SpeedexVoucherCreator')) {
+        if(!$this->config->isModuleOutputEnabled('Onecode_TaxydromikiVoucherCreator') &&
+            !$this->config->isModuleOutputEnabled('Onecode_SpeedexVoucherCreator')) {
             return $result;
         }
 
