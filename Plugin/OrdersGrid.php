@@ -25,9 +25,7 @@ class OrdersGrid
      */
     public function afterGetReport(CollectionFactory $subject, Collection $result, $requestName): Collection
     {
-        if ($requestName !== 'sales_order_grid_data_source') {
-            return $result;
-        }
+
         if(!$this->config->isModuleOutputEnabled('Onecode_TaxydromikiVoucherCreator') &&
             !$this->config->isModuleOutputEnabled('Onecode_SpeedexVoucherCreator')) {
             return $result;
